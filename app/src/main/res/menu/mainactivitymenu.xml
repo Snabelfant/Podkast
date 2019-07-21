@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="dag.podkast.MainActivity">
+    <item
+        android:id="@+id/mainactivitymenu_refresh"
+        android:title="OPPDATÉR"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mainactivitymenu_save"
+        android:title="LAGRE"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mainactivitymenu_channeloverview"
+        android:title="KANALER"
+        app:showAsAction="always" />
+</menu>

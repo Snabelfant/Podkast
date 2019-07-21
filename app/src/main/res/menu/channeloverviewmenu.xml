@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="dag.podkast.ChannelOverviewActivity">
+    <item
+        android:id="@+id/channeloverviewmenu_refresh"
+        android:title="OPPDATÉR"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/channeloverviewmenu_save"
+        android:title="LAGRE"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/channeloverviewmenu_newchannel"
+        android:title="NY KANAL"
+        app:showAsAction="always" />
+</menu>

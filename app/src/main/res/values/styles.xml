@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="AppThemeX" parent="Theme.AppCompat.Light.DarkActionBar" />
+</resources>

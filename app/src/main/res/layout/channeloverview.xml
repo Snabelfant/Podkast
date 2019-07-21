@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="dag.podkast.ChannelOverviewActivity">
+
+    <CheckBox
+        android:id="@+id/channel_isselected"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/channel_name"
+        android:layout_width="210dp"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="(Navn)" />
+
+    <TextView
+        android:id="@+id/channel_remainingcount"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:background="@color/podcaststate_completed"
+        android:gravity="right"
+        android:text="(nn)" />
+
+    <TextView
+        android:id="@+id/channel_remainingtime"
+        android:layout_width="75dp"
+        android:layout_height="match_parent"
+        android:background="@color/podcaststate_downloaded"
+        android:gravity="right"
+        android:text="(xx.yy.zz)" />
+</LinearLayout>

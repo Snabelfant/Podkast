@@ -1,0 +1,139 @@
+{
+  "sort": "CHANNELP_PUBDATEP",
+  "channels": [
+    {
+      "id": "forkl",
+      "name": "Aftenposten Forklart",
+      "rssUrl": "https://acast.aftenposten.no/rss/forklart",
+      "earliestPubDate": "2019-01-17T00:00:00",
+      "selected": true
+    },
+    {
+      "id": "apodd",
+      "name": "Aftenpodden",
+      "rssUrl": "https://acast.aftenposten.no/rss/aftenpodden",
+      "earliestPubDate": "2019-01-02T00:00:00",
+      "selected": false
+    },
+    {
+      "id": "tekmag",
+      "name": "Teknologimagasinet",
+      "rssUrl": "https://acast.aftenposten.no/rss/teknologimagasinet",
+      "earliestPubDate": "2019-01-03T00:00:00",
+      "selected": false
+    },
+    {
+      "id": "kortsl",
+      "name": "Kortslutning",
+      "rssUrl": "https://rss.simplecast.com/podcasts/4239/rss",
+      "earliestPubDate": "2019-01-01T00:00:00",
+      "selected": false
+    },
+    {
+      "id": "rlab",
+      "name": "Radiolab",
+      "rssUrl": "http://feeds.wnyc.org/radiolab",
+      "earliestPubDate": "2019-01-01T00:00:00",
+      "selected": false
+    },
+    {
+      "id": "abels",
+      "name": "Abels tårn",
+      "rssUrl": "https://podkast.nrk.no/program/abels_taarn.rss",
+      "earliestPubDate": "2019-01-02T00:00:00",
+      "selected": false
+    },
+    {
+      "id": "ekko",
+      "name": "Ekko",
+      "rssUrl": "https://podkast.nrk.no/program/ekko_-_et_aktuelt_samfunnsprogram.rss",
+      "earliestPubDate": "2019-01-03T00:00:00",
+      "selected": false
+    },
+    {
+      "id": "efant",
+      "name": "Elefanten",
+      "rssUrl": "https://podkast.nrk.no/program/elefanten.rss",
+      "earliestPubDate": "2000-01-01T00:00:00",
+      "selected": false
+    },
+    {
+      "id": "herre",
+      "name": "Herreavdelingen",
+      "rssUrl": "https://podkast.nrk.no/program/herreavdelingen.rss",
+      "earliestPubDate": "2000-01-01T00:00:00",
+      "selected": false
+    },
+    {
+      "id": "bok4",
+      "name": "Kjente bøker på 4 minutter",
+      "rssUrl": "https://podkast.nrk.no/program/kjente_boeker_paa_4_minutter.rss",
+      "earliestPubDate": "2000-01-01T00:00:00",
+      "selected": false
+    },
+    {
+      "id": "krig",
+      "name": "Krig på 200 minutter",
+      "rssUrl": "https://podkast.nrk.no/program/krig_paa_200_minutter.rss",
+      "earliestPubDate": "2000-01-01T00:00:00",
+      "selected": false
+    },
+    {
+      "id": "kuriøs",
+      "name": "Kuriøs",
+      "rssUrl": "https://podkast.nrk.no/program/kurioes.rss",
+      "earliestPubDate": "2000-01-01T00:00:00",
+      "selected": false
+    },
+    {
+      "id": "museum",
+      "name": "Museum",
+      "rssUrl": "https://podkast.nrk.no/program/museum.rss",
+      "earliestPubDate": "2019-01-01T00:00:00",
+      "selected": false
+    },
+    {
+      "id": "rdok",
+      "name": "Radiodokumentaren",
+      "rssUrl": "https://podkast.nrk.no/program/radiodokumentaren.rss",
+      "earliestPubDate": "2019-01-01T00:00:00",
+      "selected": false
+    },
+    {
+      "id": "teigen",
+      "name": "Språkteigen",
+      "rssUrl": "https://podkast.nrk.no/program/spraakteigen.rss",
+      "earliestPubDate": "2019-01-01T00:00:00",
+      "selected": false
+    },
+    {
+      "id": "vbørs",
+      "name": "Verdibørsen",
+      "rssUrl": "https://podkast.nrk.no/program/verdiboersen.rss",
+      "earliestPubDate": "2019-01-01T00:00:00",
+      "selected": false
+    },
+    {
+      "id": "skast",
+      "name": "Stormkast",
+      "rssUrl": "https://feeds.soundcloud.com/users/soundcloud:users:455730366/sounds.rss",
+      "earliestPubDate": "2019-01-01T00:00:00",
+      "selected": false
+    },
+    {
+      "id": "harrest",
+      "name": "Husarrest",
+      "rssUrl": "https://tools.planetradio.co.uk/core/podcasts/rss.php?name=husarrest",
+      "earliestPubDate": "2019-01-01T00:00:00",
+      "selected": false
+    },
+    {
+      "id": "tsett",
+      "name": "Teknisk sett",
+      "rssUrl": "http://podcast.tu.no/rss",
+      "earliestPubDate": "2019-01-01T00:00:00",
+      "selected": false
+    }
+  ],
+  "podcasts": []
+}
