@@ -10,7 +10,7 @@ import java.io.IOException
 import java.io.InputStream
 import java.io.OutputStream
 
-object JsonMapper {
+class JsonMapper {
     private val writerPretty: ObjectWriter
     private val writer: ObjectWriter
     private val objectMapper: ObjectMapper = ObjectMapper()
@@ -31,5 +31,14 @@ object JsonMapper {
             }
 
     @Throws(IOException::class)
-    fun <T> read(inputStream: InputStream, typeReference: TypeReference<T>): T = objectMapper.readValue(inputStream, typeReference)
+    fun write(any: Any, pretty: Boolean = false) =
+            if (pretty) {
+                writerPretty.writeValueAsString( any)
+            } else {
+                writer.writeValueAsString(any)
+            }
+
+    @Throws(IOException::class)
+    fun <T> read(inputStream: InputStream, typeReference: TypeReference<T>): T =
+            objectMapper.readValue(inputStream, typeReference)
 }
