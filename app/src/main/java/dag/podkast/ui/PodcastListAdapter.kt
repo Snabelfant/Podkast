@@ -1,5 +1,6 @@
 package dag.podkast.ui
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.graphics.Color
 import android.view.LayoutInflater
@@ -25,6 +26,7 @@ class PodcastListAdapter(context: Context) : ArrayAdapter<Podcast>(context, R.la
         return selectedPodcasts.size
     }
 
+    @SuppressLint("SetTextI18n")
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
         val podcast = getItem(position)
         val podcastView = inflater.inflate(R.layout.podcast, parent, false)
