@@ -57,16 +57,19 @@ class AudioPlayerCommands(private val context: Context) {
 
     fun registerCurrentPositionReceiver(receiver: BroadcastReceiver) {
         val intentFilter = IntentFilter(INTENT_CURRENTPOSITION)
+ //       context.unregisterReceiver(receiver)
         context.registerReceiver(receiver, intentFilter)
     }
 
     fun registerPlaybackStoppedReceiver(receiver: BroadcastReceiver) {
         val intentFilter = IntentFilter(INTENT_STOP)
+   //     context.unregisterReceiver(receiver)
         context.registerReceiver(receiver, intentFilter)
     }
 
     fun registerPlaybackCompletedReceiver(receiver: BroadcastReceiver) {
         val intentFilter = IntentFilter(INTENT_COMPLETED)
+     //   context.unregisterReceiver(receiver)
         context.registerReceiver(receiver, intentFilter)
     }
 
